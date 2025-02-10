@@ -1,16 +1,37 @@
-# product_app
+# **Product App** 🛍️
 
-A new Flutter project.
+A Flutter-based product management application that interacts with both remote and local data sources.
 
-## Getting Started
+## **🚀 Getting Started**
 
-This project is a starting point for a Flutter application.
+### **Prerequisites**
+Ensure you have the following installed:
 
-A few resources to get you started if this is your first Flutter project:
+- **Flutter SDK** (latest stable) → [Install Flutter](https://flutter.dev/docs/get-started/install)
+- **Dart SDK** (comes with Flutter)
+- **Android Studio** or **VS Code** (optional, but recommended)
+- **Git** for cloning the repository
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### **Project Structure**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+📦 product_app
+ ┣ 📂 lib
+ ┃ ┣ 📂 data
+ ┃ ┃ ┣ 📂 sources  # Data sources (API, local storage)
+ ┃ ┃ ┣ 📂 models   # Data models
+ ┃ ┃ ┗ 📂 repositories # Repository layer
+ ┃ ┣ 📂 presentation # UI layer
+ ┃ ┗ 📂 core # Utility functions & constants
+ ┣ 📂 test  # Unit tests
+ ┃ ┣ 📂 data
+ ┃ ┃ ┗ 📂 sources
+ ┃ ┗ 📜 mocks.mocks.dart # Mocked dependencies (generated)
+ ┣ 📜 pubspec.yaml
+ ┗ 📜 README.md
+
+
+
+### **📥 Clone the Repository**
+```sh
+git clone https://github.com/amrkamal1993/product_app.git
+cd product_app
