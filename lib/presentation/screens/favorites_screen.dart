@@ -11,8 +11,7 @@ class FavoritesScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // context.read<FavouriteCubit>().fetchFavorites();
-//        getFavoritesUseCase: GetFavorites(repository),
+
     return BlocProvider(
       create: (context) => GetIt.instance.get<FavouriteCubit>()..fetchFavorites(),
       child: Scaffold(
